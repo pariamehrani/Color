@@ -1,0 +1,112 @@
+This is a quck setup guide on libraries and packages required for compiling TarzaNN.
+
+TarzaNN is written on C++ with the GUI  implement on Qt libraries with the Qwt
+extention used for plotting graphs. TarxaNN compiles and runs on
+Windows, Linux and MacOS although not all features may be available for all platforms.
+
+
+INSTALLATION
+
+*********************
+*      WINDOWS      *
+*********************
+
+
+1. Installing Qt:
+
+Download qt installer from:
+http://qt.nokia.com/downloads
+
+Choose the package appropriate for your environment.
+
+Let's say you installed it to C:\Qt
+
+Add that directory  C:\Qt\bin to your PATH environment variable.
+Also create two new environment variables:
+QTDIR = C:\Qt
+QMAKESPEC = win32-msvc2010
+(choose the appropriate spec setting for your environment. The example is for MS Visual Studio 2010)
+
+After that you'll need to reboot and Qt should work.
+
+2. But for TarzaNN to compile you'll also need to install Qwt.
+
+Download latest Qwt package from:
+http://sourceforge.net/projects/qwt/files/qwt/
+
+Currently TarzaNN works with qwt6.0.1
+Unzip it to a temporary directory (ex. c:\Temp\qwt)
+
+From command prompt (you might want to use MSVC command prompt to make sure that nmake can be run properly) issue these commands:
+
+cd c:\Temp\qwt
+qmake qwt.pro
+nmake
+nmake install
+
+last command will create a new folder something like  c:\Qwt-6.0.1 and copy all the file you need in there.
+
+Add one more enviroment variable
+
+QMAKEFEATURES = C:\Qwt-6.0.1\features
+
+And add C:\Qwt-6.0.1\lib to your PATH enviroment variable
+
+3. From the same command prompt run setup_win.cmd script located in the top tarzann directory.
+This should create a TarzaNN.sln file that you can open with MS Visual Studio
+
+
+
+*********************
+*       LINUX       *
+*********************
+1. Install Qt4
+sudo apt-get install libqt4-dev
+
+2. Install FlyCapture2 for Linux
+http://www.ptgrey.com/flycapture-sdk
+first install dependencies for the library as outlined in README
+then use the install_flycapture.sh
+
+3. Download qwt
+http://sourceforge.net/projects/qwt/files/qwt/6.0.1/
+
+unzip and run
+qmake
+sudo make install
+
+export CMAKE_INCLUDE_PATH=/usr/local/qwt-6.0.1:$CMAKE_INCLUDE_PATH
+
+4. install GLEW
+sudo apt-get install libglew-dev
+
+5. If cmake fails with
+Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;...
+
+try installing xorg-dev
+sudo apt-get install xorg-dev
+
+6. to run matlab engine csh is required
+sudo apt-get install csh
+
+7. install OpenCV
+sudo apt-get install opencv-dev
+
+8. install fftw3 library
+sudo apt-get install libfftw3-dev
+
+RUNTIME ERRORS:
+if the executable throws this error at startup
+bin/TarzaNN: symbol lookup error: /usr/lib/x86_64-linux-gnu/libQt3Support.so.4: undefined symbol: _ZTI9QMenuItem
+
+it means that Qt libraries are conflicting with Matlab version of Qt. Since there is no way of providing a full path to the libraries via cmake, the only solution is to copy all matlab libraries into a separate directory, e.g. /usr/local/lib/matlab/ and use that to link
+make sure the new folder does not contain any of the Qt libraries, otherwise it won't solve the linking problem
+
+sudo mkdir /usr/local/lib/matlab/
+sudo mv /usr/local/MATLAB/R2014a/bin/glnxa64/* /usr/local/lib/matlab/
+sudo rm /usr/local/lib/matlab/libQt*
+
+TODO:
+try FFTW3 library to do convolution with large kernels
+http://www.timrost.com/msc_code/
+https://github.com/jeremyfix/FFTConvolution

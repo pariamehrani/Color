@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="TarzaNN3_0" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\examples\;CMake Files\examples\PosnerExperiment\;CMake Files\examples\v1v2\;CMake Files\examples\color_model\;CMake Files\examples\shape_model\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Programs\;CMake Files\..\..\..\..\Programs\Qt5.7.0\;CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\;CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\;CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\;CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\;CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\;CMake Files\tests\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tarzann">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/lib/libtarzann.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 tarzann" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tarzann/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/lib/libtarzann.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 tarzann/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tarzann_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 tarzann_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lattice_test">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/lattice_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 lattice_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lattice_test/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/lattice_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 lattice_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamma_units_test">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/gamma_units_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 gamma_units_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamma_units_test/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/gamma_units_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 gamma_units_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="plattice_test">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/plattice_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 plattice_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="plattice_test/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/plattice_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 plattice_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="full_network_test">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/full_network_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 full_network_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="full_network_test/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/full_network_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 full_network_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="convlt_test">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/convlt_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 convlt_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="convlt_test/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/convlt_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 convlt_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="layer_test">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/layer_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 layer_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="layer_test/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/layer_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 layer_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="matrix_test">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/matrix_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 matrix_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="matrix_test/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/matrix_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 matrix_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="filter_test">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/filter_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 filter_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="filter_test/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/filter_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 filter_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lattice_test_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 lattice_test_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamma_units_test_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 gamma_units_test_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="plattice_test_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 plattice_test_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="full_network_test_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 full_network_test_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="convlt_test_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 convlt_test_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="layer_test_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 layer_test_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="matrix_test_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 matrix_test_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="filter_test_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 filter_test_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="v1v2">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/v1v2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 v1v2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="v1v2/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/v1v2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 v1v2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="v1v2_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 v1v2_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="color_model">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/color_model" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 color_model" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="color_model/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/color_model" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 color_model/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="color_model_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 color_model_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shape_model">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/shape_model" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 shape_model" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shape_model/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/shape_model" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 shape_model/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shape_model_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 shape_model_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="PosnerExperiment">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/PosnerExperiment" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 PosnerExperiment" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="PosnerExperiment/fast">
+         <Option output="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/PosnerExperiment" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/paria/Programs/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 PosnerExperiment/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="PosnerExperiment_automoc">
+         <Option working_dir="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 PosnerExperiment_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/Posner_exp.cpp">
+         <Option target="PosnerExperiment"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/full_network_test_hue.cpp">
+         <Option target="color_model"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/shape_model.cpp">
+         <Option target="shape_model"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/v1v2.cpp">
+         <Option target="v1v2"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Array2D.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Common.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/ComputeStrategy.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Connection.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/ControlSignalGenerator.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Debug.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/FeaturalReceptiveField.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Filter.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/FilterDoG.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/FilterGabor.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/FilterGaussian.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/FilterIdentity.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/FilterType.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/GammaUnits.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/GatingSignal.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Layer.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Matrix.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Neuron.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/NeuronLinear.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/NeuronLinear2.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/NeuronST.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/NeuronST1.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/NeuronSigmoid.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/NeuronType.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/PLattice.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Probe.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/ReceptiveField.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/RetinalLayer.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Sheet.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/Stimulus.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann/XMLConfig.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann_gui/ConnectionGUI.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann_gui/GUI_config.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann_gui/NetworkWindow.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann_gui/PLatticeGUI.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/include/tarzann_gui/SheetImage.h">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Array2D.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/ComputeStrategy.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Connection.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/ControlSignalGenerator.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Filter.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/FilterDoG.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/FilterGabor.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/FilterGaussian.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/FilterIdentity.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/GammaUnits.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/GatingSignal.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Layer.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Matrix.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Neuron.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/NeuronLinear.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/NeuronLinear2.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/NeuronST.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/NeuronST1.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/NeuronSigmoid.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/PLattice.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Probe.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/ReceptiveField.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/RetinalLayer.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Sheet.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/Stimulus.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann/XMLConfig.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann_gui/ConnectionGUI.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann_gui/NetworkWindow.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann_gui/PLatticeGUI.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/src/tarzann_gui/SheetImage.cpp">
+         <Option target="tarzann"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/convlt_test.cpp">
+         <Option target="convlt_test"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/filter_test.cpp">
+         <Option target="filter_test"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/full_network_test.cpp">
+         <Option target="full_network_test"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/gamma_units_test.cpp">
+         <Option target="gamma_units_test"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/layer_test.cpp">
+         <Option target="layer_test"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/matrix_test.cpp">
+         <Option target="matrix_test"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/plattice_test.cpp">
+         <Option target="plattice_test"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/plattice_test_new.cpp">
+         <Option target="lattice_test"/>
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\PosnerExperiment\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/PosnerExperiment/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\PosnerExperiment\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\v1v2\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/v1v2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\v1v2\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\color_model\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/color_model/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\color_model\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\shape_model\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/examples/shape_model/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\shape_model\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/../../../../Programs/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Programs\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+      <Unit filename="/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

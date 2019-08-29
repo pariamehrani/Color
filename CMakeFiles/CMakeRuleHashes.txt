@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+73628541024340b54406e768497a9f98 CMakeFiles/tarzann_automoc
+23bdf2a6d1c0348b9ae437b655e0a1f3 examples/color_model/CMakeFiles/color_model_automoc

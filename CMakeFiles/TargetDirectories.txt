@@ -1,0 +1,8 @@
+/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0_journal_code_published/CMakeFiles/rebuild_cache.dir
+/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0_journal_code_published/CMakeFiles/edit_cache.dir
+/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0_journal_code_published/CMakeFiles/tarzann.dir
+/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0_journal_code_published/CMakeFiles/tarzann_automoc.dir
+/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0_journal_code_published/examples/color_model/CMakeFiles/edit_cache.dir
+/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0_journal_code_published/examples/color_model/CMakeFiles/rebuild_cache.dir
+/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0_journal_code_published/examples/color_model/CMakeFiles/color_model.dir
+/home/paria/shared_folder/TarzaNN_Andrei/Color_model_code/TarzaNN.3.0_journal_code_published/examples/color_model/CMakeFiles/color_model_automoc.dir
